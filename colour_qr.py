@@ -53,5 +53,5 @@ if __name__ == '__main__':
     f = open("demo_content_small.txt", "r")
     #f = open("demo_content_large.txt", "r")
     text = f.read()
-    generate_color_qr(text, 'color_qr.png')
-    decode_color_qr("color_qr.png")
+    generate_color_qr(text, 'colour_qr.png')
+    decode_color_qr("colour_qr.png")
